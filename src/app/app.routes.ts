@@ -10,7 +10,7 @@ import { SignupComponent } from './core/features/signup/signup.component';
 export const routes: Routes = [
     {path: '', component: HomeComponent },
     { path: 'products', component: ProductListComponent },
-    { path: 'products/:id', component: ProductDetailComponent },
+    // { path: 'products/:id', component: ProductDetailComponent },
     { path: 'cart', component: CartComponent },
     { path: 'login', component: LoginComponent },
     { path: 'signup', component: SignupComponent },
